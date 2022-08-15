@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
         while (nums.size()<6){
             nums.add((int)(Math.random()*49+1));
         }
-        int i=0; int[] ret = new int[6];
+        int i=0;
+        int[] ret = new int[6];
         for (Integer num : nums){
             ret[i] = num;
             i++;
